@@ -24,7 +24,7 @@ gem 'devise'
 
 gem 'bootstrap_form'
 
-gem 'rspec-rails', '~> 3.6'
+gem 'rspec-rails', ">= 2.0.0.beta"
 gem 'factory_girl_rails'
 gem 'rails-controller-testing'
 gem 'headless'
