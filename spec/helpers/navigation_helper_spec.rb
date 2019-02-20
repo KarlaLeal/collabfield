@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe NavigationHelper, :type => :helper do
+<<<<<<< HEAD
 
   context 'signed in user' do
     before(:each) { helper.stub(:user_signed_in?).and_return(true) }
@@ -26,4 +27,7 @@ RSpec.describe NavigationHelper, :type => :helper do
     end
   end
 
+=======
+  
+>>>>>>> specs
 end
